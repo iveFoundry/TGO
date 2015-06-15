@@ -151,6 +151,122 @@ $(".projectOne-img-five").on("mouseout",function(){
 });
 
 
+/*  --------------------------------------------------------------------PROJECT TWO IMAGES */
+
+
+$(".projectTwo-img-one").on("click",function(){
+	 res();
+	 $('.project-nav-one').css("display", "block");
+	 $('.project-two-msg-triangle').css("display", "block");
+	 $(".projectTwo-img-one").css("background-image", "url(images/project-two-optionOne.png)");	
+	 $('#ProjectTwoLabel').html("Senior Health");	 
+	 $("#close-button").on("click",function(){
+		 $('.project-one-msg').css("display", "none");
+	 });
+	 
+	  $("#close-button-two").on("click",function(){
+		 $('.project-two-msg-triangle').css("display", "none");
+	 });
+});
+
+$(".projectTwo-img-two").on("click",function(){
+	 res();
+	 $('.project-nav-one').css("display", "block");
+	  $('.project-two-msg-triangle').css("display", "block");
+	 $(".projectTwo-img-two").css("background-image", "url(images/project-two-optionTwo.png)");	
+	 $('#ProjectTwoLabel').html("Rehabilitation"); 	 
+	 $("#close-button").on("click",function(){
+		 $('.project-one-msg').css("display", "none");
+	 });
+	 
+	  $("#close-button-two").on("click",function(){
+		 $('.project-two-msg-triangle').css("display", "none");
+	 });
+});
+
+$(".projectTwo-img-three").on("click",function(){
+	 res();
+	 $('.project-nav-one').css("display", "block");
+	  $('.project-two-msg-triangle').css("display", "block");
+	 $(".projectTwo-img-three").css("background-image", "url(images/project-two-optionThree.png)");	
+	 $('#ProjectTwoLabel').html("Fitness & Excercise"); 	 
+	 $("#close-button").on("click",function(){
+		 $('.project-one-msg').css("display", "none");
+	 });
+	 
+	  $("#close-button-two").on("click",function(){
+		 $('.project-two-msg-triangle').css("display", "none");
+	 });
+});
+
+$(".projectTwo-img-four").on("click",function(){
+	 res();
+	 $('.project-nav-one').css("display", "block");
+	  $('.project-two-msg-triangle').css("display", "block");
+	 $(".projectTwo-img-four").css("background-image", "url(images/project-two-optionFour.png)");	
+	 $('#ProjectTwoLabel').html("Special Needs"); 	 
+	 $("#close-button").on("click",function(){
+		 $('.project-one-msg').css("display", "none");
+	 });
+	 
+	  $("#close-button-two").on("click",function(){
+		 $('.project-two-msg-triangle').css("display", "none");
+	 });
+});
+
+$(".projectTwo-img-five").on("click",function(){
+	 res();
+	 $('.project-nav-one').css("display", "block");
+	  $('.project-two-msg-triangle').css("display", "block");
+	 $(".projectTwo-img-five").css("background-image", "url(images/project-two-optionFive.png)");	
+	 $('#ProjectTwoLabel').html("Mental Health"); 	 
+	 $("#close-button").on("click",function(){
+		 $('.project-one-msg').css("display", "none");
+	 });
+	 
+	 
+	 $("#close-button-two").on("click",function(){
+		 $('.project-two-msg-triangle').css("display", "none");
+	 });
+});
+
+
+$(".projectTwo-img-one").on("mouseover",function(){ 
+	 $('#ProjectTwoLabel').html("Senior Health");
+});
+$(".projectTwo-img-one").on("mouseout",function(){ 
+ resLabel();
+});
+
+$(".projectTwo-img-two").on("mouseover",function(){ 
+	 $('#ProjectTwoLabel').html("Rehabilitation");
+});
+$(".projectTwo-img-two").on("mouseout",function(){ 
+ resLabel();
+});
+
+$(".projectTwo-img-three").on("mouseover",function(){ 
+	 $('#ProjectTwoLabel').html("Fitness & Exercise");
+});
+$(".projectTwo-img-three").on("mouseout",function(){ 
+ resLabel();
+});
+$(".projectTwo-img-four").on("mouseover",function(){ 
+	 $('#ProjectTwoLabel').html("Special Needs");
+});
+$(".projectTwo-img-four").on("mouseout",function(){ 
+ resLabel();
+});
+$(".projectTwo-img-five").on("mouseover",function(){ 
+	 $('#ProjectTwoLabel').html("Mental Health");
+});
+$(".projectTwo-img-five").on("mouseout",function(){ 
+ resLabel();
+});
+
+/*  --------------------------------------------------------------------PROJECT TWO IMAGES END */
+
+
 
 /*  --------------------------------------------------------------------PROJECT Three IMAGES */
 
@@ -245,6 +361,7 @@ function res(){
 	
 $('.project-nav-one').css("display", "none");
 $('.project-one-msg').css("display", "none");
+$('.project-two-msg-triangle').css("display", "none");
 $('.project-three-msg-triangle').css("display", "none");
 
 $('.search').css("display", "none");
@@ -256,6 +373,12 @@ $(".projectOne-img-two").css("background-image", "none");
 $(".projectOne-img-three").css("background-image", "none"); 
 $(".projectOne-img-four").css("background-image", "none"); 
 $(".projectOne-img-five").css("background-image", "none");
+
+$(".projectTwo-img-one").css("background-image", "none"); 
+$(".projectTwo-img-two").css("background-image", "none"); 
+$(".projectTwo-img-three").css("background-image", "none"); 
+$(".projectTwo-img-four").css("background-image", "none"); 
+$(".projectTwo-img-five").css("background-image", "none");
 
 $(".projectThree-img-one").css("background-image", "none"); 
 $(".projectThree-img-two").css("background-image", "none"); 
