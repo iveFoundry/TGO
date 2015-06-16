@@ -43,75 +43,55 @@ $(".project-nav-one-img-seven").on("click",function(){
 $(".projectOne-img-one").on("click",function(){
 	 res();
 	 $('.project-nav-one').css("display", "block");
-	 $('.project-one-msg').css("display", "block");
-	 $('.project-one-msg-triangle').css("top", "160px");
+	 $('.project-one-msg-triangle').css("display", "block");
 	 $(".projectOne-img-one").css("background-image", "url(images/projectOne-img-one.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
-	 $('#ProjectOneLabel').html("Wildlife & Habitat");
-	 	 
-	 $("#close-button").on("click",function(){
-		 $('.project-one-msg').css("display", "none");
+	 $('#ProjectOneLabel').html("Wildlife & Habitat"); 
+	 $("#close-button-one").on("click",function(){
+		 $('.project-one-msg-triangle').css("display", "none");
 	 });
-	
-});
-
-	
+});	
 $(".projectOne-img-two").on("click",function(){
 	 res();
 	 $('.project-nav-one').css("display", "block");
-	 $('.project-one-msg').css("display", "block");
-	 $('.project-one-msg-triangle').css("top", "160px") 
+	 $('.project-one-msg-triangle').css("display", "block");
 	 $(".projectOne-img-two").css("background-image", "url(images/projectOne-img-two.png)");
-	  $('.project-nav-msg-triangle').css("display", "block");
-
-	 
-	 $("#close-button").on("click",function(){
-		 $('.project-one-msg').css("display", "none");
+	 $('.project-nav-msg-triangle').css("display", "block");
+	 $("#close-button-one").on("click",function(){
+		 $('.project-one-msg-triangle').css("display", "none");
 	 });	
-});	
-	
-	
+});		
 $(".projectOne-img-three").on("click",function(){
 	 res();
 	 $('.project-nav-one').css("display", "block");
-	 $('.project-one-msg').css("display", "block");
-	 $('.project-one-msg-triangle').css("top", "160px");
+	 $('.project-one-msg-triangle').css("display", "block");
 	 $(".projectOne-img-three").css("background-image", "url(images/projectOne-img-three.png)");  
-	  $('.project-nav-msg-triangle').css("display", "block");
-	     $('#ProjectOneLabel').html("Sustainable Products");
-	 
-	 $("#close-button").on("click",function(){
-		 $('.project-one-msg').css("display", "none");
+	 $('.project-nav-msg-triangle').css("display", "block");
+	 $('#ProjectOneLabel').html("Sustainable Products");
+	 $("#close-button-one").on("click",function(){
+		 $('.project-one-msg-triangle').css("display", "none");
 	 });	
-});
-	
-	
+});	
 $(".projectOne-img-four").on("click",function(){
 	 res();
 	 $('.project-nav-one').css("display", "block");
-	 $('.project-one-msg').css("display", "block");
-	 $('.project-one-msg-triangle').css("top", "160px");
+	 $('.project-one-msg-triangle').css("display", "block");
 	 $(".projectOne-img-four").css("background-image", "url(images/projectOne-img-four.png)");
-	  $('.project-nav-msg-triangle').css("display", "block");
-	     $('#ProjectOneLabel').html("Green Technology");
-	 
-	 $("#close-button").on("click",function(){
-		 $('.project-one-msg').css("display", "none");
+	 $('.project-nav-msg-triangle').css("display", "block");
+	 $('#ProjectOneLabel').html("Green Technology");
+	 $("#close-button-one").on("click",function(){
+		 $('.project-one-msg-triangle').css("display", "none");
 	 });	
 });
-	
-	
 $(".projectOne-img-five").on("click",function(){
 	 res();
 	 $('.project-nav-one').css("display", "block");
-	 $('.project-one-msg').css("display", "block");
-	 $('.project-one-msg-triangle').css("top", "160px");
+	 $('.project-one-msg-triangle').css("display", "block");
 	 $(".projectOne-img-five").css("background-image", "url(images/projectOne-img-five.png)");
-	  $('.project-nav-msg-triangle').css("display", "block");
-	       $('#ProjectOneLabel').html("Energy Management");
-	 
-	 $("#close-button").on("click",function(){
-		 $('.project-one-msg').css("display", "none");
+	 $('.project-nav-msg-triangle').css("display", "block");
+	 $('#ProjectOneLabel').html("Energy Management");
+	 $("#close-button-one").on("click",function(){
+		 $('.project-one-msg-triangle').css("display", "none");
 	 });		
 });
 
@@ -138,13 +118,13 @@ $(".projectOne-img-three").on("mouseout",function(){
 });
 
 $(".projectOne-img-four").on("mouseover",function(){ 
-	     $('#ProjectOneLabel').html("Green Technology");
+	 $('#ProjectOneLabel').html("Green Technology");
 });
 $(".projectOne-img-four").on("mouseout",function(){ 
   resLabel();
 });
 $(".projectOne-img-five").on("mouseover",function(){ 
-	    $('#ProjectOneLabel').html("Energy Management");
+	 $('#ProjectOneLabel').html("Energy Management");
 });
 $(".projectOne-img-five").on("mouseout",function(){ 
   resLabel();
@@ -158,43 +138,34 @@ $(".projectTwo-img-one").on("click",function(){
 	 res();
 	 $('.project-nav-one').css("display", "block");
 	 $('.project-two-msg-triangle').css("display", "block");
-	 $(".projectTwo-img-one").css("background-image", "url(images/project-two-optionOne.png)");	
+	 $(".projectTwo-img-one").css("background-image", "url(images/project-two-optionOne.png)");
+	 $('.project-nav-msg-triangle').css("display", "block");
 	 $('#ProjectTwoLabel').html("Senior Health");	 
-	 $("#close-button").on("click",function(){
-		 $('.project-one-msg').css("display", "none");
-	 });
-	 
-	  $("#close-button-two").on("click",function(){
-		 $('.project-two-msg-triangle').css("display", "none");
+	 $("#close-button-two").on("click",function(){
+	 $('.project-two-msg-triangle').css("display", "none");
 	 });
 });
 
 $(".projectTwo-img-two").on("click",function(){
 	 res();
 	 $('.project-nav-one').css("display", "block");
-	  $('.project-two-msg-triangle').css("display", "block");
-	 $(".projectTwo-img-two").css("background-image", "url(images/project-two-optionTwo.png)");	
-	 $('#ProjectTwoLabel').html("Rehabilitation"); 	 
-	 $("#close-button").on("click",function(){
-		 $('.project-one-msg').css("display", "none");
-	 });
-	 
-	  $("#close-button-two").on("click",function(){
+	 $('.project-two-msg-triangle').css("display", "block");
+	 $(".projectTwo-img-two").css("background-image", "url(images/project-two-optionTwo.png)");
+	 $('.project-nav-msg-triangle').css("display", "block");
+	 $('#ProjectTwoLabel').html("Rehabilitation");
+	 $("#close-button-two").on("click",function(){
 		 $('.project-two-msg-triangle').css("display", "none");
-	 });
+	  });
 });
 
 $(".projectTwo-img-three").on("click",function(){
 	 res();
 	 $('.project-nav-one').css("display", "block");
-	  $('.project-two-msg-triangle').css("display", "block");
-	 $(".projectTwo-img-three").css("background-image", "url(images/project-two-optionThree.png)");	
+	 $('.project-two-msg-triangle').css("display", "block");
+	 $(".projectTwo-img-three").css("background-image", "url(images/project-two-optionThree.png)");
+	 $('.project-nav-msg-triangle').css("display", "block");	
 	 $('#ProjectTwoLabel').html("Fitness & Excercise"); 	 
-	 $("#close-button").on("click",function(){
-		 $('.project-one-msg').css("display", "none");
-	 });
-	 
-	  $("#close-button-two").on("click",function(){
+	 $("#close-button-two").on("click",function(){
 		 $('.project-two-msg-triangle').css("display", "none");
 	 });
 });
@@ -203,7 +174,8 @@ $(".projectTwo-img-four").on("click",function(){
 	 res();
 	 $('.project-nav-one').css("display", "block");
 	  $('.project-two-msg-triangle').css("display", "block");
-	 $(".projectTwo-img-four").css("background-image", "url(images/project-two-optionFour.png)");	
+	 $(".projectTwo-img-four").css("background-image", "url(images/project-two-optionFour.png)");
+	 $('.project-nav-msg-triangle').css("display", "block");	
 	 $('#ProjectTwoLabel').html("Special Needs"); 	 
 	 $("#close-button").on("click",function(){
 		 $('.project-one-msg').css("display", "none");
@@ -218,13 +190,12 @@ $(".projectTwo-img-five").on("click",function(){
 	 res();
 	 $('.project-nav-one').css("display", "block");
 	  $('.project-two-msg-triangle').css("display", "block");
-	 $(".projectTwo-img-five").css("background-image", "url(images/project-two-optionFive.png)");	
+	 $(".projectTwo-img-five").css("background-image", "url(images/project-two-optionFive.png)");
+	 $('.project-nav-msg-triangle').css("display", "block");	
 	 $('#ProjectTwoLabel').html("Mental Health"); 	 
 	 $("#close-button").on("click",function(){
 		 $('.project-one-msg').css("display", "none");
 	 });
-	 
-	 
 	 $("#close-button-two").on("click",function(){
 		 $('.project-two-msg-triangle').css("display", "none");
 	 });
@@ -237,14 +208,12 @@ $(".projectTwo-img-one").on("mouseover",function(){
 $(".projectTwo-img-one").on("mouseout",function(){ 
  resLabel();
 });
-
 $(".projectTwo-img-two").on("mouseover",function(){ 
 	 $('#ProjectTwoLabel').html("Rehabilitation");
 });
 $(".projectTwo-img-two").on("mouseout",function(){ 
  resLabel();
 });
-
 $(".projectTwo-img-three").on("mouseover",function(){ 
 	 $('#ProjectTwoLabel').html("Fitness & Exercise");
 });
@@ -275,7 +244,10 @@ $(".projectThree-img-one").on("click",function(){
 	 $('.project-nav-one').css("display", "block");
 	 $('.project-three-msg-triangle').css("display", "block");
 	 $(".projectThree-img-one").css("background-image", "url(images/project-three-one.png)");
-	 $('.project-nav-msg-triangle').css("display", "block");	
+	 $('.project-nav-msg-triangle').css("display", "block");
+	 $("#close-button-three").on("click",function(){
+		 $('.project-three-msg-triangle').css("display", "none");
+	 });
 });
 
 $(".projectThree-img-two").on("click",function(){
@@ -283,7 +255,10 @@ $(".projectThree-img-two").on("click",function(){
 	 $('.project-nav-one').css("display", "block");
 	 $('.project-three-msg-triangle').css("display", "block");
 	 $(".projectThree-img-two").css("background-image", "url(images/project-three-two.png)");
-	 $('.project-nav-msg-triangle').css("display", "block");	
+	 $('.project-nav-msg-triangle').css("display", "block");
+	 $("#close-button-three").on("click",function(){
+		 $('.project-three-msg-triangle').css("display", "none");
+	 });	
 });
 
 $(".projectThree-img-three").on("click",function(){
@@ -291,7 +266,10 @@ $(".projectThree-img-three").on("click",function(){
 	 $('.project-nav-one').css("display", "block");
 	 $('.project-three-msg-triangle').css("display", "block");
 	 $(".projectThree-img-three").css("background-image", "url(images/project-three-three.png)");
-	 $('.project-nav-msg-triangle').css("display", "block");	
+	 $('.project-nav-msg-triangle').css("display", "block");
+	 $("#close-button-three").on("click",function(){
+		 $('.project-three-msg-triangle').css("display", "none");
+	 });	
 });
 
 $(".projectThree-img-four").on("click",function(){
@@ -299,7 +277,10 @@ $(".projectThree-img-four").on("click",function(){
 	 $('.project-nav-one').css("display", "block");
 	  $('.project-three-msg-triangle').css("display", "block");
 	 $(".projectThree-img-four").css("background-image", "url(images/project-three-four.png)");
-	 $('.project-nav-msg-triangle').css("display", "block");	
+	 $('.project-nav-msg-triangle').css("display", "block");
+	 $("#close-button-three").on("click",function(){
+		 $('.project-three-msg-triangle').css("display", "none");
+	 });	
 });
 
 $(".projectThree-img-five").on("click",function(){
@@ -307,7 +288,10 @@ $(".projectThree-img-five").on("click",function(){
 	 $('.project-nav-one').css("display", "block");
 	  $('.project-three-msg-triangle').css("display", "block");
 	 $(".projectThree-img-five").css("background-image", "url(images/project-three-five.png)");
-	 $('.project-nav-msg-triangle').css("display", "block");	
+	 $('.project-nav-msg-triangle').css("display", "block");
+	 $("#close-button-three").on("click",function(){
+		 $('.project-three-msg-triangle').css("display", "none");
+	 });	
 });
 
 
@@ -360,17 +344,15 @@ $(this).on("click",function(ev){
 function res(){
 	
 $('.project-nav-one').css("display", "none");
-$('.project-one-msg').css("display", "none");
+$('.project-one-msg-triangle').css("display", "none");
 $('.project-two-msg-triangle').css("display", "none");
 $('.project-three-msg-triangle').css("display", "none");
-
-$('.search').css("display", "none");
 $('.project-nav-msg-triangle').css("display", "none");
 
 
-$(".projectOne-img-one").css("background-image", "none"); 
-$(".projectOne-img-two").css("background-image", "none"); 
-$(".projectOne-img-three").css("background-image", "none"); 
+$(".projectOne-img-one").css("background-image", "none");
+$(".projectOne-img-two").css("background-image", "none");
+$(".projectOne-img-three").css("background-image", "none");
 $(".projectOne-img-four").css("background-image", "none"); 
 $(".projectOne-img-five").css("background-image", "none");
 
