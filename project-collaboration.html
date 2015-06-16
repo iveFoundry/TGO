@@ -10,6 +10,16 @@
 
 <div class="main_nav">
 	<div class="container">
+    
+     <div class="search">
+        <div class="login">
+            <ul>
+                <a id="login" href="#"><li>Login</li></a>
+                <a href="registration.html"><li>Register</li></a>
+            </ul>
+        </div>
+    	<input type="text" class="search"  placeHolder="Search" ><button type="button"></button>
+    </div>
         <div class="nav">
             <ul>
             <li>BROWSE</li>
@@ -19,6 +29,28 @@
         </div>
     </div>
 </div>
+
+<!-- SIGN IN FORM -->
+<div id="login_form" class="signInForm" style="display:none;">
+<h1>Welcome !</h1>
+<h3>Please sign in to your account</h3>
+
+  <div class="login">    
+   	<input type="text" placeHolder="Email" />       
+        <input type="text" placeHolder="Password" />
+        
+        <button><label>SIGN IN</label></button>
+        <span><a href="#">Forgot your password?</a></span>
+        
+    <h3>or <a href="#">SIGN UP</a> - Its FREE</h3>
+        
+      <a href=""><img src="images/linkedInSignIn.png" /></a>
+        
+      <span>Please sign in here if you're a <a href="#">startup</a></span>
+    <a href="#" id="close" >Close</a>
+    </div><!-- login end -->
+</div><!-- signInForm end -->
+<!-- SIGN IN FORM ENDS -->
 
 
 <div class="main_body-project">
@@ -69,16 +101,52 @@
     </div>
     <div class="right-side-panel">
     
-    <div class="button">
+    <a id="requestCall" href="#"><div class="button">
     <img src="images/image.png"  /> <span>REQUEST A CALL BACK</span>
-    </div>
-    <div class="button">
+    </div></a>
+    
+    <div id="call_form" class="request-a-call" style="display:none;">
+        <img class="hearLogo" src="images/image.png"  /> <h4>Please enter a time you are likely to be available and [Startup] will be in contact with you shortly</h4>
+        <input type="text" placeHolder="00:00" maxlength="5" size="5"/>
+        <button><label>Request</label></button>
+        <div class="clear"></div>
+        <div class="project-rate">
+        <img src="images/image.png"  />
+        <img src="images/image.png"  />
+        <img src="images/image.png"  />
+        <img src="images/image.png"  />
+        <img src="images/image.png"  />
+        <span>How would you rate the idea of this project?</span>
+        <a href="#" id="close" >Close</a>
+        </div>
+	</div><!-- Hear From You -->
+    
+
+
+    <a id="message" href="#"><div class="button">
         <img src="images/image.png"  /> <span>SEND A MESSAGE</span>
-    </div>
+    </div></a>
+    <div id="message_form" class="hear-from-you" style="display:none;">
+            <img class="hearLogo" src="images/image.png"  /> <h4>[Startup] will be excited to hear from you! </h4>
+            <div class="clear"></div>
+            <textarea rows="8" cols="70" placeHolder="Type your message here"></textarea>
+            <button><label>Send</label></button>
+            <div class="clear"></div>
+            <div class="project-rate">
+            <img src="images/image.png"  />
+            <img src="images/image.png"  />
+            <img src="images/image.png"  />
+            <img src="images/image.png"  />
+            <img src="images/image.png"  />
+            <span>How would you rate the idea of this project?</span>
+            </div>
+            <a href="#" id="close" >Close</a>
     </div>
 
 
 	</div> <!--container -->
 </div> <!--main_body-->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/home-nav.js"></script>
 </body>
 </html>

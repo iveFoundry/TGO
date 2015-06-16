@@ -231,7 +231,8 @@ a { text-decoration:none; color:#fc663b; }
 .profile-project-one span { display:block; width:90%; margin:20px auto;  }
 .icon { width:20px; height:20px; margin-right:4px; }
 .profile-project-one .location { background-color:c4c4c4; text-align:center; width:100%; margin-top:15px; padding:3px 0;}
-.profile-project-one span button { border:1px solid #000; background:#f2f2f2; float:right; }
+.profile-project-one span .learn-more-button { border:1px solid #000; background:#f2f2f2; float:right; color:#000; font-size:12px; padding:2px 8px; }
+.profile-project-one span .learn-more-button:hover { background:#ccc; }
 .left { float:left; }
 .right { float:right; }
 /* PROFILE PAGE  ENDS */
@@ -314,3 +315,12 @@ a { text-decoration:none; color:#fc663b; }
 .causes-images { width:90px; height:65px; }
 
 /* CREATE A NEW USER PROFILE PAGE ENDS*/
+
+
+
+
+/* POP UPS LOGIN/REQUEST A CALL/ */
+
+#login_form{ position: absolute; border: 5px solid gray; padding: 10px;  padding-bottom: 25px; background: white; height: 190px; z-index:999999;}
+#message_form{ position: absolute; border: 5px solid gray; padding: 10px; background: white; height: 190px; z-index:999999;}
+#call_form{ position: absolute; border: 5px solid gray; padding: 10px; background: white; height: 190px; z-index:999999;}

@@ -413,14 +413,10 @@ alert('Click worked');
 }
 });
 
-	
-
 /*  --------------------------------------------------------------------PROJECT TWO IMAGES END */	
 
 
 /*  --------------------------------------------------------------------PROJECT THREE IMAGES END */	
-
-	
 	
 $("map#projectThree").mouseover(function(ev){
     var target = $(ev.target);
@@ -448,6 +444,73 @@ $("map#projectThree").mouseout(function(){
 
 
 /*  --------------------------------------------------------------------PROJECT THREE IMAGES END */	
+
+ 
+
+//open popup
+$("#login").click(function(){
+$("#message_form").fadeOut(500);
+$("#call_form").fadeOut(500);
+$("#login_form").fadeIn(1000);
+positionPopup();
+});
+$("#close").click(function(){
+$("#login_form").fadeOut(500);
+});
+function positionPopup(){
+if(!$("#login_form").is(':visible')){
+return;
+}
+$("#login_form").css({
+left: ($(window).width() - $('#login_form').width()) / 2,
+top: ($(window).width() - $('#login_form').width()) / 7,
+position:'absolute'
+});
+}
+$(window).bind('resize',positionPopup);
+
+$("#message").click(function(){
+$("#login_form").fadeOut(500);
+$("#call_form").fadeOut(500);
+$("#message_form").fadeIn(1000);
+positionPopupMsg();
+});
+$("#close").click(function(){
+$("#message_form").fadeOut(500);
+});
+function positionPopupMsg(){
+if(!$("#message_form").is(':visible')){
+return;
+}
+$("#message_form").css({
+left: ($(window).width() - $('#message_form').width()) / 2,
+top: ($(window).width() - $('#message_form').width()) / 7,
+position:'absolute'
+});
+}
+$(window).bind('resize',positionPopupMsg);
+
+$("#requestCall").click(function(){
+$("#login_form").fadeOut(500);
+$("#message_form").fadeOut(500);
+$("#call_form").fadeIn(1000);
+positionPopupCall();
+});
+$("#close").click(function(){
+$("#call_form").fadeOut(500);
+});
+
+function positionPopupCall(){
+if(!$("#call_form").is(':visible')){
+return;
+}
+$("#call_form").css({
+left: ($(window).width() - $('#call_form').width()) / 2 ,
+top: ($(window).width() - $('#call_form').width()) / 7,
+position:'absolute'
+});
+}
+$(window).bind('resize',positionPopupCall);
 
 
 
