@@ -161,13 +161,13 @@ a { text-decoration:none; color:#fc663b; }
 .index-project-one h6 { display:block; float:left; margin:15px 0 10px 10px; }
 .index-project-one img.project-icon { display:inline-block; float:right; width:45px; height:45px; margin-right:10px;}
 .index-project-one h5 { display:block; width:95%; margin:20px auto; padding-top:5px; }
-.index-project-one span { display:block; width:90%; margin:20px auto;  }
+.index-project-one span { display:block; width:90%; margin:20px auto; font-size:13px; }
 .icon { float:left; display:inline-block; width:20px; height:20px; margin-right:4px; margin-left:5px; }
-.index-project-one .location { background-color:c4c4c4; text-align:center; width:100%; margin-top:15px; padding:3px 0;}
+.index-project-one .location { background-color:c4c4c4; text-align:center; width:100%; margin-top:15px; padding:3px 0; color:#fff;}
 .index-project-one .learn-more-button { border:1px solid #000; background:#f2f2f2; float:right; color:#000; font-size:12px; padding:2px 8px; margin-right:10px;}
 .index-project-one .learn-more-button:hover { background:#ccc; }
-span.green { float:left; display:inline-block; color:green; width:100px; margin:0;}
-span.yellow { float:left; display:inline-block; color:#ccd300;width:100px; margin:0; }
+span.data-info { float:left; display:inline-block; width:100px; margin:0;}
+
 
 /* MAIN HOME ENDS */
 
