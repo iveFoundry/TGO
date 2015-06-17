@@ -42,7 +42,7 @@ $(".project-nav-one-img-seven").on("click",function(){
 	
 $(".projectOne-img-one").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	 $('.project-one-msg-triangle').css("display", "block");
 	 $(".projectOne-img-one").css("background-image", "url(images/projectOne-img-one.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -53,7 +53,7 @@ $(".projectOne-img-one").on("click",function(){
 });	
 $(".projectOne-img-two").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	 $('.project-one-msg-triangle').css("display", "block");
 	 $(".projectOne-img-two").css("background-image", "url(images/projectOne-img-two.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -63,7 +63,7 @@ $(".projectOne-img-two").on("click",function(){
 });		
 $(".projectOne-img-three").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	 $('.project-one-msg-triangle').css("display", "block");
 	 $(".projectOne-img-three").css("background-image", "url(images/projectOne-img-three.png)");  
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -74,7 +74,7 @@ $(".projectOne-img-three").on("click",function(){
 });	
 $(".projectOne-img-four").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	 $('.project-one-msg-triangle').css("display", "block");
 	 $(".projectOne-img-four").css("background-image", "url(images/projectOne-img-four.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -85,7 +85,7 @@ $(".projectOne-img-four").on("click",function(){
 });
 $(".projectOne-img-five").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	 $('.project-one-msg-triangle').css("display", "block");
 	 $(".projectOne-img-five").css("background-image", "url(images/projectOne-img-five.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -136,7 +136,7 @@ $(".projectOne-img-five").on("mouseout",function(){
 
 $(".projectTwo-img-one").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	 $('.project-two-msg-triangle').css("display", "block");
 	 $(".projectTwo-img-one").css("background-image", "url(images/project-two-optionOne.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -148,7 +148,7 @@ $(".projectTwo-img-one").on("click",function(){
 
 $(".projectTwo-img-two").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	 $('.project-two-msg-triangle').css("display", "block");
 	 $(".projectTwo-img-two").css("background-image", "url(images/project-two-optionTwo.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -160,7 +160,7 @@ $(".projectTwo-img-two").on("click",function(){
 
 $(".projectTwo-img-three").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	 $('.project-two-msg-triangle').css("display", "block");
 	 $(".projectTwo-img-three").css("background-image", "url(images/project-two-optionThree.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");	
@@ -172,7 +172,7 @@ $(".projectTwo-img-three").on("click",function(){
 
 $(".projectTwo-img-four").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	  $('.project-two-msg-triangle').css("display", "block");
 	 $(".projectTwo-img-four").css("background-image", "url(images/project-two-optionFour.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");	
@@ -188,7 +188,7 @@ $(".projectTwo-img-four").on("click",function(){
 
 $(".projectTwo-img-five").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	  $('.project-two-msg-triangle').css("display", "block");
 	 $(".projectTwo-img-five").css("background-image", "url(images/project-two-optionFive.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");	
@@ -241,7 +241,7 @@ $(".projectTwo-img-five").on("mouseout",function(){
 
 $(".projectThree-img-one").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	 $('.project-three-msg-triangle').css("display", "block");
 	 $(".projectThree-img-one").css("background-image", "url(images/project-three-one.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -252,7 +252,7 @@ $(".projectThree-img-one").on("click",function(){
 
 $(".projectThree-img-two").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	 $('.project-three-msg-triangle').css("display", "block");
 	 $(".projectThree-img-two").css("background-image", "url(images/project-three-two.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -263,7 +263,7 @@ $(".projectThree-img-two").on("click",function(){
 
 $(".projectThree-img-three").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	 $('.project-three-msg-triangle').css("display", "block");
 	 $(".projectThree-img-three").css("background-image", "url(images/project-three-three.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -274,7 +274,7 @@ $(".projectThree-img-three").on("click",function(){
 
 $(".projectThree-img-four").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	  $('.project-three-msg-triangle').css("display", "block");
 	 $(".projectThree-img-four").css("background-image", "url(images/project-three-four.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -285,7 +285,7 @@ $(".projectThree-img-four").on("click",function(){
 
 $(".projectThree-img-five").on("click",function(){
 	 res();
-	 $('.project-nav-one').css("display", "block");
+	 $('.project-nav-one').css("display", "block"); fadeElements();
 	  $('.project-three-msg-triangle').css("display", "block");
 	 $(".projectThree-img-five").css("background-image", "url(images/project-three-five.png)");
 	 $('.project-nav-msg-triangle').css("display", "block");
@@ -339,7 +339,16 @@ $(this).on("click",function(ev){
 });
 });
 
-
+function fadeElements(){
+$('.project-nav-project:first-of-type').fadeIn(700);	
+$('.project-nav-project:nth-child(2)').fadeIn(1400);
+$('.project-nav-project:nth-child(3)').fadeIn(2100);
+$('.project-nav-project:nth-child(4)').fadeIn(2800);
+$('.project-nav-project:nth-child(5)').fadeIn(3500);
+$('.project-nav-project:nth-child(6)').fadeIn(4200);
+$('.project-nav-project:nth-child(7)').fadeIn(4900);
+	
+}
 
 function res(){
 	
