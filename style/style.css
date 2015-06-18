@@ -220,27 +220,28 @@ span.data-info { float:left; display:inline-block; width:100px; margin:0;}
 
 
 /* PROFILE PAGE  */
-.col-1 { display:inline-block; width:30%; float:left; padding:3px; margin-top:20px; height:310px; }
+.col-1 { display:inline-block; width:30%; float:left; padding:3px; margin-top:20px; height:220px; font-size:12px; padding-left:20px; padding-right:20px; }
 .col-1 .profile-pic { width:40%; height:100%; display:inline-block; float:left; }
 .col-1 .profile-pic { max-width:100px; width:100%; }
 .col-1 .company { width:60%; display:inline-block; float:right; }
 .col-1 .company-pic { width:60%; display:inline-block; text-align:right; float:right; }
 .col-1 .company-logo { width:60%; display:inline-block; float:right; padding-top:20px;}
-.col-1 .company-logo img { height:50px; width:100%; float:left; }
-.col-1 .row-2-col { margin-top:65px; }
+.col-1 .company-logo img { height:50px; width:80%; float:left; }
+.col-1 .row-2-col { margin-top:10px; }
 .col-1 .row-2-col img { width:30%; display:inline-block; margin-top:15px; float:left; }
-.col-1 .row-2-col span { width:60%; display:inline-block; margin-top:15px; float:right;}
-.col-2 {  display:inline-block; width:30%; float:left; padding:10px;  margin-top:20px; height:310px; }
+.col-1 .row-2-col span { width:60%; display:inline-block; margin-top:35px; float:right;}
+.col-2 {  display:inline-block; width:30%; float:left; padding:10px;  margin-top:20px; height:220px; font-size:12px; }
 .col-2 .row-1-col span { width:100%; display:block; }
 .col-2 .row-1-col span:last-of-type { margin-top:15px; }
 .col-2 .row-1-col span img {  width:20px; height:20px; }
-.col-2 .row-2-col { margin-top:30px; }
+.col-2 .row-2-col { margin-top:10px; }
 .col-2 .row-2-col img { width:30%; display:inline-block; margin-top:15px; float:left; }
-.col-2 .row-2-col span { width:60%; display:inline-block; margin-top:15px; float:right;}
+.col-2 .row-2-col span { width:60%; display:inline-block; margin-top:35px; float:right;}
 .col-3 {  display:inline-block; width:30%; float:left;  margin-top:0; }
+.col-3 iframe{ display:block; margin:auto; }
 
 
-.profile-project-one { max-width:400px; width:100%; display:block; position:relative; background-color:#fff; padding-top:15px;  margin:100px 0; }
+.profile-project-one { max-width:400px; width:100%; display:block; position:relative; background-color:#fff; padding-top:15px;  margin:60px 0; font-size:12px; }
 .profile-project-one .absolute-project-logo { position:absolute; top:-40px; left:-40px; width:80px; height:80px }
 .profile-project-one .absolute-project-image { width:95%; height:150px; display:block; margin:auto; }
 .profile-project-one h5 { display:block; width:95%; margin:20px auto; padding-top:5px; }
@@ -251,6 +252,10 @@ span.data-info { float:left; display:inline-block; width:100px; margin:0;}
 .profile-project-one span .learn-more-button:hover { background:#ccc; }
 .left { float:left; }
 .right { float:right; }
+.main_body-bck { background-color:#f0f0f0;  }
+.main-projects {background-color:#f0f0f0;  }
+.grey-background { background-color:#fff;  }
+
 /* PROFILE PAGE  ENDS */
 
 /* CREATE A NEW PROJECT PROFILE PAGE */
@@ -277,6 +282,8 @@ span.data-info { float:left; display:inline-block; width:100px; margin:0;}
 .signInForm .login h3 { text-align:center; width:100%; display:block; }
 .signInForm .login span { text-align:center; width:100%; display:block; margin:10px auto; }
 .signInForm .login span:first-of-type { width:88%; font-size:10px; text-align:left; }
+a#close { width:100%; text-align:center; display:block; margin:auto;  }
+#close { position:absolute; right:5px; top:5px; background:#CCC; border-radius:100%; padding:5px 10px; color:#fff; cursor:pointer; }
 /* SIGN IN FORM ENDS */
 
 /* HEAR FROM YOU FORM */
