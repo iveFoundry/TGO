@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body { margin:0; padding:0; background-color:f0f0f0; font-family: 'Lato', sans-serif; }
+body { margin:0; padding:0; background-color:#f0f0f0; font-family: 'Lato', sans-serif; }
 a { text-decoration:none; color:#fc663b; }
 .clear {  height:0; clear:both;  }
 .container { max-width:1000px; width:100%; display:block; margin:auto; }
@@ -163,7 +163,7 @@ a { text-decoration:none; color:#fc663b; }
 .index-project-one h5 { display:block; width:95%; margin:20px auto; padding-top:5px; }
 .index-project-one span { display:block; width:90%; margin:20px auto; font-size:13px; }
 .icon { float:left; display:inline-block; width:20px; height:20px; margin-right:4px; margin-left:5px; }
-.index-project-one .location { background-color:c4c4c4; text-align:center; width:100%; margin-top:15px; padding:3px 0; color:#fff;}
+.index-project-one .location { background-color:#c4c4c4; text-align:center; width:100%; margin-top:15px; padding:3px 0; color:#fff;}
 .index-project-one .learn-more-button { border:1px solid #000; background:#f2f2f2; float:right; color:#000; font-size:12px; padding:2px 8px; margin-right:10px;}
 .index-project-one .learn-more-button:hover { background:#ccc; }
 span.data-info { float:left; display:inline-block; width:100px; margin:0;}
@@ -247,7 +247,7 @@ span.data-info { float:left; display:inline-block; width:100px; margin:0;}
 .profile-project-one h5 { display:block; width:95%; margin:20px auto; padding-top:5px; }
 .profile-project-one span { display:block; width:90%; margin:20px auto;  }
 .icon { width:20px; height:20px; margin-right:4px; }
-.profile-project-one .location { background-color:c4c4c4; text-align:center; width:100%; margin-top:15px; padding:3px 0;}
+.profile-project-one .location { background-color:#c4c4c4; text-align:center; width:100%; margin-top:15px; padding:3px 0;}
 .profile-project-one span .learn-more-button { border:1px solid #000; background:#f2f2f2; float:right; color:#000; font-size:12px; padding:2px 8px; }
 .profile-project-one span .learn-more-button:hover { background:#ccc; }
 .left { float:left; }
@@ -287,7 +287,7 @@ a#close { width:100%; text-align:center; display:block; margin:auto;  }
 /* SIGN IN FORM ENDS */
 
 /* HEAR FROM YOU FORM */
-.hear-from-you{ display:block; margin:100px auto; width:580px; min-height:330px; background-color:fff; border:3px solid #474747; }
+.hear-from-you{ display:block; margin:100px auto; width:580px; min-height:330px; background-color:#fff; border:3px solid #474747; }
 .hear-from-you img.hearLogo{ float:left; display:inline-block; width:60px; height:60px; margin:20px;}
 .hear-from-you h4 { color:#666666; line-height:60px; }
 .hear-from-you textarea { width:80%; display:block; margin:auto; }
@@ -297,7 +297,7 @@ a#close { width:100%; text-align:center; display:block; margin:auto;  }
 /* HEAR FROM YOU FORM ENDS */
 
 /* HEAR FROM YOU FORM */
-.request-a-call { display:block; margin:100px auto; width:580px; min-height:150px; background-color:fff; border:3px solid #474747; }
+.request-a-call { display:block; margin:100px auto; width:580px; min-height:150px; background-color:#fff; border:3px solid #474747; }
 .request-a-call img.hearLogo{ float:left; display:inline-block; width:60px; height:60px; margin:20px;}
 .request-a-call h4 { color:#666666; line-height:25px; width:60%; float:left;}
 .request-a-call input { display:block; width:50px; height:27px; text-align:center; float:right;  margin:35px 10% 0 0; }
