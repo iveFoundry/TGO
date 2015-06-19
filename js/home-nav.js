@@ -340,6 +340,14 @@ $(this).on("click",function(ev){
 });
 
 function fadeElements(){
+	
+$('.project-one ').css('margin-top', '20px');
+$('.project-one ').css('margin-bottom', '60px');
+$('.project-two ').css('margin-top', '20px');
+$('.project-two ').css('margin-bottom', '60px');
+$('.project-three ').css('margin-top', '20px');
+$('.project-three ').css('margin-bottom', '60px');
+	
 $('.project-nav-project:first-of-type').fadeIn(700);	
 $('.project-nav-project:nth-child(2)').fadeIn(1400);
 $('.project-nav-project:nth-child(3)').fadeIn(2100);
@@ -351,6 +359,14 @@ $('.project-nav-project:nth-child(7)').fadeIn(4900);
 }
 
 function res(){
+	
+	
+$('.project-one ').css('margin-top', '120px');
+$('.project-one ').css('margin-bottom', '160px');
+$('.project-two ').css('margin-top', '120px');
+$('.project-two ').css('margin-bottom', '160px');
+$('.project-three ').css('margin-top', '120px');
+$('.project-three ').css('margin-bottom', '160px');
 	
 $('.project-nav-one').css("display", "none");
 $('.project-one-msg-triangle').css("display", "none");
