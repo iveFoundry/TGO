@@ -68,7 +68,7 @@ a { text-decoration:none; color:#fc663b; }
 
 .main_body { width:100%; background-color:#fff; margin-top:10px; min-height:510px; padding-bottom:15px; }
 
-.project-one { display:inline-block; min-height:280px; max-width:300px; width:100%; float:left; background-image:url(../images/project-one.png); position:relative; margin-bottom:130px; margin-top:68px;}
+.project-one { display:inline-block; min-height:280px; max-width:300px; width:100%; float:left; background-image:url(../images/project-one.png); position:relative; margin-bottom:130px; margin-top:98px;}
 .projectOne-img-one { position:absolute; width:107px; height:100px; bottom:0; right:46px; z-index:10; }
 .projectOne-img-one:hover {  background-image:url(../images/projectOne-img-one.png); }
 .projectOne-img-two { position:absolute; width:141px; height:136px; bottom:0; left:32px; }
