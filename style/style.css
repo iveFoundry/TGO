@@ -77,7 +77,7 @@ a { text-decoration:none; color:#fc663b; }
 .projectOne-img-three:hover {  background-image:url(../images/projectOne-img-three.png); }
 .projectOne-img-four { position:absolute; width:110px; height:106px; top:4px; right:38px; }
 .projectOne-img-four:hover {  background-image:url(../images/projectOne-img-four.png); }
-.projectOne-img-five { position:absolute; width:79px; height:82px; top:104px; right:0; }
+.projectOne-img-five { position:absolute; width:79px; height:82px; top:103px; right:0; }
 .projectOne-img-five:hover {  background-image:url(../images/projectOne-img-five.png); }
 #ProjectOneLabel { position:absolute; max-width:300px; width:100%; color:green; font-size:18px; display:block; bottom:-40px; left:0; }
 
@@ -85,13 +85,13 @@ a { text-decoration:none; color:#fc663b; }
 
 .projectTwo-img-one { position:absolute; width:103px; height:117px; bottom:84px; right:14px; z-index:10; }
 .projectTwo-img-one:hover {  background-image:url(../images/project-two-optionOne.png); }
-.projectTwo-img-two { position:absolute; width:95px; height:119px; bottom:77px; right:107px; }
+.projectTwo-img-two { position:absolute; width:95px; height:119px; bottom:78px; right:107px; }
 .projectTwo-img-two:hover {  background-image:url(../images/project-two-optionTwo.png); }
 .projectTwo-img-three { position:absolute; width:117px; height:106px; top:0; left:98px; }
 .projectTwo-img-three:hover {  background-image:url(../images/project-two-optionThree.png); }
 .projectTwo-img-four { position:absolute; width:86px; height:110px; top:85px; left:25px; }
 .projectTwo-img-four:hover {  background-image:url(../images/project-two-optionFour.png); }
-.projectTwo-img-five { position:absolute; width:122px; height:91px; bottom:3px; right:81px; }
+.projectTwo-img-five { position:absolute; width:122px; height:91px; bottom:4px; right:80px; }
 .projectTwo-img-five:hover {  background-image:url(../images/project-two-optionFive.png); }
 .project-two-msg { display:none; position:absolute; left:300px; z-index:10; width:150px; height:100px; font-size:11px; top:300px; }
 
